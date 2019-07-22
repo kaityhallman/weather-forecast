@@ -5,7 +5,6 @@ import WeatherCard from './WeatherCard';
 import WeatherAndDate from './WeatherAndDate';
 import WeatherCardLite from './WeatherCardLite';
 
-// set up safe api key
 const api_key = process.env.REACT_APP_WEATHER_API_KEY;
 const api = `http://api.apixu.com/v1/forecast.json?key=${api_key}&q=Boston&days=7`;
 
