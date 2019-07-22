@@ -1,0 +1,41 @@
+.weather-card {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  width: 600px;
+}
+
+.location,
+.weather {
+  padding: 16px;
+}
+
+.location:not(h1):not(h3),
+.weather {
+  font-size: 12px;
+}
+
+.weather {
+  font-size: 12px;
+  text-align: right;
+}
+
+.location {
+  text-align: left;
+}
+
+.location h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.current-temperature {
+  display: flex;
+}
+
+.current-temperature h1 {
+  font-size: 40px;
+}

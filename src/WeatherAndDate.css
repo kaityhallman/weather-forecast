@@ -1,0 +1,4 @@
+.weather-and-date {
+  display: flex;
+  flex-direction: column;
+}
